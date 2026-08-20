@@ -16,3 +16,7 @@ jobs:
           echo "The repository is: $GITHUB_REPOSITORY"
           echo "Runner hostname: $hostname"
           echo "public ipaddress: $curl hostname.me"
+     
+      - name: Get Runner Public IP
+        run: curl -s ipconfig.io
+  
