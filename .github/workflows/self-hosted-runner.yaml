@@ -15,4 +15,4 @@ jobs:
           echo "Today's runner is: $RUNNER_OS"
           echo "The repository is: $GITHUB_REPOSITORY"
           echo "Runner hostname: $hostname"
-          echo "public ipaddress: $curl hostname.me
+          echo "public ipaddress: $curl hostname.me"
